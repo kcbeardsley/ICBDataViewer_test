@@ -417,6 +417,38 @@
         "Archs": "digest.so.dSYM"
       }
     },
+    "dplyr": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com",
+      "description": {
+        "Type": "Package",
+        "Package": "dplyr",
+        "Title": "A Grammar of Data Manipulation",
+        "Version": "1.1.4",
+        "Authors@R": "c(\n    person(\"Hadley\", \"Wickham\", , \"hadley@posit.co\", role = c(\"aut\", \"cre\"),\n           comment = c(ORCID = \"0000-0003-4757-117X\")),\n    person(\"Romain\", \"François\", role = \"aut\",\n           comment = c(ORCID = \"0000-0002-2444-4226\")),\n    person(\"Lionel\", \"Henry\", role = \"aut\"),\n    person(\"Kirill\", \"Müller\", role = \"aut\",\n           comment = c(ORCID = \"0000-0002-1416-3412\")),\n    person(\"Davis\", \"Vaughan\", , \"davis@posit.co\", role = \"aut\",\n           comment = c(ORCID = \"0000-0003-4777-038X\")),\n    person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\"))\n  )",
+        "Description": "A fast, consistent tool for working with data frame like\n    objects, both in memory and out of memory.",
+        "License": "MIT + file LICENSE",
+        "URL": "https://dplyr.tidyverse.org, https://github.com/tidyverse/dplyr",
+        "BugReports": "https://github.com/tidyverse/dplyr/issues",
+        "Depends": "R (>= 3.5.0)",
+        "Imports": "cli (>= 3.4.0), generics, glue (>= 1.3.2), lifecycle (>=\n1.0.3), magrittr (>= 1.5), methods, pillar (>= 1.9.0), R6,\nrlang (>= 1.1.0), tibble (>= 3.2.0), tidyselect (>= 1.2.0),\nutils, vctrs (>= 0.6.4)",
+        "Suggests": "bench, broom, callr, covr, DBI, dbplyr (>= 2.2.1), ggplot2,\nknitr, Lahman, lobstr, microbenchmark, nycflights13, purrr,\nrmarkdown, RMySQL, RPostgreSQL, RSQLite, stringi (>= 1.7.6),\ntestthat (>= 3.1.5), tidyr (>= 1.3.0), withr",
+        "VignetteBuilder": "knitr",
+        "Config/Needs/website": "tidyverse, shiny, pkgdown, tidyverse/tidytemplate",
+        "Config/testthat/edition": "3",
+        "Encoding": "UTF-8",
+        "LazyData": "true",
+        "RoxygenNote": "7.2.3",
+        "NeedsCompilation": "yes",
+        "Packaged": "2023-11-16 21:48:56 UTC; hadleywickham",
+        "Author": "Hadley Wickham [aut, cre] (<https://orcid.org/0000-0003-4757-117X>),\n  Romain François [aut] (<https://orcid.org/0000-0002-2444-4226>),\n  Lionel Henry [aut],\n  Kirill Müller [aut] (<https://orcid.org/0000-0002-1416-3412>),\n  Davis Vaughan [aut] (<https://orcid.org/0000-0003-4777-038X>),\n  Posit Software, PBC [cph, fnd]",
+        "Maintainer": "Hadley Wickham <hadley@posit.co>",
+        "Repository": "CRAN",
+        "Date/Publication": "2023-11-17 16:50:02 UTC",
+        "Built": "R 4.5.0; aarch64-apple-darwin20; 2025-04-01 23:28:06 UTC; unix",
+        "Archs": "dplyr.so.dSYM"
+      }
+    },
     "evaluate": {
       "Source": "CRAN",
       "Repository": "https://cran.rstudio.com",
@@ -531,6 +563,34 @@
         "Date/Publication": "2025-04-12 10:40:02 UTC",
         "Built": "R 4.5.0; aarch64-apple-darwin20; 2025-04-12 11:59:24 UTC; unix",
         "Archs": "fs.so.dSYM"
+      }
+    },
+    "generics": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com",
+      "description": {
+        "Package": "generics",
+        "Title": "Common S3 Generics not Provided by Base R Methods Related to\nModel Fitting",
+        "Version": "0.1.4",
+        "Authors@R": "c(\n    person(\"Hadley\", \"Wickham\", , \"hadley@posit.co\", role = c(\"aut\", \"cre\"),\n           comment = c(ORCID = \"0000-0003-4757-117X\")),\n    person(\"Max\", \"Kuhn\", , \"max@posit.co\", role = \"aut\"),\n    person(\"Davis\", \"Vaughan\", , \"davis@posit.co\", role = \"aut\"),\n    person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\"),\n           comment = c(ROR = \"https://ror.org/03wc8by49\"))\n  )",
+        "Description": "In order to reduce potential package dependencies and\n    conflicts, generics provides a number of commonly used S3 generics.",
+        "License": "MIT + file LICENSE",
+        "URL": "https://generics.r-lib.org, https://github.com/r-lib/generics",
+        "BugReports": "https://github.com/r-lib/generics/issues",
+        "Depends": "R (>= 3.6)",
+        "Imports": "methods",
+        "Suggests": "covr, pkgload, testthat (>= 3.0.0), tibble, withr",
+        "Config/Needs/website": "tidyverse/tidytemplate",
+        "Config/testthat/edition": "3",
+        "Encoding": "UTF-8",
+        "RoxygenNote": "7.3.2",
+        "NeedsCompilation": "no",
+        "Packaged": "2025-05-09 18:17:41 UTC; hadleywickham",
+        "Author": "Hadley Wickham [aut, cre] (ORCID:\n    <https://orcid.org/0000-0003-4757-117X>),\n  Max Kuhn [aut],\n  Davis Vaughan [aut],\n  Posit Software, PBC [cph, fnd] (ROR: <https://ror.org/03wc8by49>)",
+        "Maintainer": "Hadley Wickham <hadley@posit.co>",
+        "Repository": "CRAN",
+        "Date/Publication": "2025-05-09 23:50:06 UTC",
+        "Built": "R 4.5.0; ; 2025-05-10 00:42:34 UTC; unix"
       }
     },
     "glue": {
@@ -1107,6 +1167,63 @@
         "RemoteSha": "0.9.3"
       }
     },
+    "pillar": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com",
+      "description": {
+        "Package": "pillar",
+        "Title": "Coloured Formatting for Columns",
+        "Version": "1.11.0",
+        "Authors@R": "\n    c(person(given = \"Kirill\",\n             family = \"M\\u00fcller\",\n             role = c(\"aut\", \"cre\"),\n             email = \"kirill@cynkra.com\",\n             comment = c(ORCID = \"0000-0002-1416-3412\")),\n      person(given = \"Hadley\",\n             family = \"Wickham\",\n             role = \"aut\"),\n      person(given = \"RStudio\",\n             role = \"cph\"))",
+        "Description": "Provides 'pillar' and 'colonnade' generics designed\n    for formatting columns of data using the full range of colours\n    provided by modern terminals.",
+        "License": "MIT + file LICENSE",
+        "URL": "https://pillar.r-lib.org/, https://github.com/r-lib/pillar",
+        "BugReports": "https://github.com/r-lib/pillar/issues",
+        "Imports": "cli (>= 2.3.0), glue, lifecycle, rlang (>= 1.0.2), utf8 (>=\n1.1.0), utils, vctrs (>= 0.5.0)",
+        "Suggests": "bit64, DBI, debugme, DiagrammeR, dplyr, formattable, ggplot2,\nknitr, lubridate, nanotime, nycflights13, palmerpenguins,\nrmarkdown, scales, stringi, survival, testthat (>= 3.1.1),\ntibble, units (>= 0.7.2), vdiffr, withr",
+        "VignetteBuilder": "knitr",
+        "Encoding": "UTF-8",
+        "RoxygenNote": "7.3.2.9000",
+        "Config/testthat/edition": "3",
+        "Config/testthat/parallel": "true",
+        "Config/testthat/start-first": "format_multi_fuzz, format_multi_fuzz_2,\nformat_multi, ctl_colonnade, ctl_colonnade_1, ctl_colonnade_2",
+        "Config/autostyle/scope": "line_breaks",
+        "Config/autostyle/strict": "true",
+        "Config/gha/extra-packages": "units=?ignore-before-r=4.3.0",
+        "Config/Needs/website": "tidyverse/tidytemplate",
+        "NeedsCompilation": "no",
+        "Packaged": "2025-07-04 18:25:31 UTC; kirill",
+        "Author": "Kirill Müller [aut, cre] (ORCID:\n    <https://orcid.org/0000-0002-1416-3412>),\n  Hadley Wickham [aut],\n  RStudio [cph]",
+        "Maintainer": "Kirill Müller <kirill@cynkra.com>",
+        "Repository": "CRAN",
+        "Date/Publication": "2025-07-04 19:20:02 UTC",
+        "Built": "R 4.5.0; ; 2025-07-04 19:58:20 UTC; unix"
+      }
+    },
+    "pkgconfig": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com",
+      "description": {
+        "Package": "pkgconfig",
+        "Title": "Private Configuration for 'R' Packages",
+        "Version": "2.0.3",
+        "Author": "Gábor Csárdi",
+        "Maintainer": "Gábor Csárdi <csardi.gabor@gmail.com>",
+        "Description": "Set configuration options on a per-package basis.\n    Options set by a given package only apply to that package,\n    other packages are unaffected.",
+        "License": "MIT + file LICENSE",
+        "LazyData": "true",
+        "Imports": "utils",
+        "Suggests": "covr, testthat, disposables (>= 1.0.3)",
+        "URL": "https://github.com/r-lib/pkgconfig#readme",
+        "BugReports": "https://github.com/r-lib/pkgconfig/issues",
+        "Encoding": "UTF-8",
+        "NeedsCompilation": "no",
+        "Packaged": "2019-09-22 08:42:40 UTC; gaborcsardi",
+        "Repository": "CRAN",
+        "Date/Publication": "2019-09-22 09:20:02 UTC",
+        "Built": "R 4.5.0; ; 2025-03-31 21:41:54 UTC; unix"
+      }
+    },
     "promises": {
       "Source": "CRAN",
       "Repository": "https://cran.rstudio.com",
@@ -1479,6 +1596,71 @@
         "Archs": "sys.so.dSYM"
       }
     },
+    "tibble": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com",
+      "description": {
+        "Package": "tibble",
+        "Title": "Simple Data Frames",
+        "Version": "3.3.0",
+        "Authors@R": "\n    c(person(given = \"Kirill\",\n             family = \"M\\u00fcller\",\n             role = c(\"aut\", \"cre\"),\n             email = \"kirill@cynkra.com\",\n             comment = c(ORCID = \"0000-0002-1416-3412\")),\n      person(given = \"Hadley\",\n             family = \"Wickham\",\n             role = \"aut\",\n             email = \"hadley@rstudio.com\"),\n      person(given = \"Romain\",\n             family = \"Francois\",\n             role = \"ctb\",\n             email = \"romain@r-enthusiasts.com\"),\n      person(given = \"Jennifer\",\n             family = \"Bryan\",\n             role = \"ctb\",\n             email = \"jenny@rstudio.com\"),\n      person(given = \"RStudio\",\n             role = c(\"cph\", \"fnd\")))",
+        "Description": "Provides a 'tbl_df' class (the 'tibble') with stricter checking and better formatting than the traditional\n    data frame.",
+        "License": "MIT + file LICENSE",
+        "URL": "https://tibble.tidyverse.org/, https://github.com/tidyverse/tibble",
+        "BugReports": "https://github.com/tidyverse/tibble/issues",
+        "Depends": "R (>= 3.4.0)",
+        "Imports": "cli, lifecycle (>= 1.0.0), magrittr, methods, pillar (>=\n1.8.1), pkgconfig, rlang (>= 1.0.2), utils, vctrs (>= 0.5.0)",
+        "Suggests": "bench, bit64, blob, brio, callr, DiagrammeR, dplyr, evaluate,\nformattable, ggplot2, here, hms, htmltools, knitr, lubridate,\nnycflights13, pkgload, purrr, rmarkdown, stringi, testthat (>=\n3.0.2), tidyr, withr",
+        "VignetteBuilder": "knitr",
+        "Encoding": "UTF-8",
+        "RoxygenNote": "7.3.2.9000",
+        "Config/testthat/edition": "3",
+        "Config/testthat/parallel": "true",
+        "Config/testthat/start-first": "vignette-formats, as_tibble, add,\ninvariants",
+        "Config/autostyle/scope": "line_breaks",
+        "Config/autostyle/strict": "true",
+        "Config/autostyle/rmd": "false",
+        "Config/Needs/website": "tidyverse/tidytemplate",
+        "NeedsCompilation": "yes",
+        "Packaged": "2025-06-07 08:54:33 UTC; kirill",
+        "Author": "Kirill Müller [aut, cre] (ORCID:\n    <https://orcid.org/0000-0002-1416-3412>),\n  Hadley Wickham [aut],\n  Romain Francois [ctb],\n  Jennifer Bryan [ctb],\n  RStudio [cph, fnd]",
+        "Maintainer": "Kirill Müller <kirill@cynkra.com>",
+        "Repository": "CRAN",
+        "Date/Publication": "2025-06-08 12:10:02 UTC",
+        "Built": "R 4.5.0; aarch64-apple-darwin20; 2025-06-08 13:50:10 UTC; unix",
+        "Archs": "tibble.so.dSYM"
+      }
+    },
+    "tidyselect": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com",
+      "description": {
+        "Package": "tidyselect",
+        "Title": "Select from a Set of Strings",
+        "Version": "1.2.1",
+        "Authors@R": "c(\n    person(\"Lionel\", \"Henry\", , \"lionel@posit.co\", role = c(\"aut\", \"cre\")),\n    person(\"Hadley\", \"Wickham\", , \"hadley@posit.co\", role = \"aut\"),\n    person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\"))\n  )",
+        "Description": "A backend for the selecting functions of the 'tidyverse'.  It\n    makes it easy to implement select-like functions in your own packages\n    in a way that is consistent with other 'tidyverse' interfaces for\n    selection.",
+        "License": "MIT + file LICENSE",
+        "URL": "https://tidyselect.r-lib.org, https://github.com/r-lib/tidyselect",
+        "BugReports": "https://github.com/r-lib/tidyselect/issues",
+        "Depends": "R (>= 3.4)",
+        "Imports": "cli (>= 3.3.0), glue (>= 1.3.0), lifecycle (>= 1.0.3), rlang\n(>= 1.0.4), vctrs (>= 0.5.2), withr",
+        "Suggests": "covr, crayon, dplyr, knitr, magrittr, rmarkdown, stringr,\ntestthat (>= 3.1.1), tibble (>= 2.1.3)",
+        "VignetteBuilder": "knitr",
+        "ByteCompile": "true",
+        "Config/testthat/edition": "3",
+        "Config/Needs/website": "tidyverse/tidytemplate",
+        "Encoding": "UTF-8",
+        "RoxygenNote": "7.3.0.9000",
+        "NeedsCompilation": "yes",
+        "Packaged": "2024-03-11 11:46:04 UTC; lionel",
+        "Author": "Lionel Henry [aut, cre],\n  Hadley Wickham [aut],\n  Posit Software, PBC [cph, fnd]",
+        "Maintainer": "Lionel Henry <lionel@posit.co>",
+        "Repository": "CRAN",
+        "Date/Publication": "2024-03-11 14:10:02 UTC",
+        "Built": "R 4.5.0; ; 2025-04-01 15:54:40 UTC; unix"
+      }
+    },
     "tinytex": {
       "Source": "CRAN",
       "Repository": "https://cran.rstudio.com",
@@ -1503,6 +1685,34 @@
         "Repository": "CRAN",
         "Date/Publication": "2025-04-15 15:50:03 UTC",
         "Built": "R 4.5.0; ; 2025-04-15 16:30:36 UTC; unix"
+      }
+    },
+    "utf8": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com",
+      "description": {
+        "Package": "utf8",
+        "Title": "Unicode Text Processing",
+        "Version": "1.2.6",
+        "Authors@R": "\n    c(person(given = c(\"Patrick\", \"O.\"),\n             family = \"Perry\",\n             role = c(\"aut\", \"cph\")),\n      person(given = \"Kirill\",\n             family = \"M\\u00fcller\",\n             role = \"cre\",\n             email = \"kirill@cynkra.com\",\n             comment = c(ORCID = \"0000-0002-1416-3412\")),\n      person(given = \"Unicode, Inc.\",\n             role = c(\"cph\", \"dtc\"),\n             comment = \"Unicode Character Database\"))",
+        "Description": "Process and print 'UTF-8' encoded international\n    text (Unicode). Input, validate, normalize, encode, format, and\n    display.",
+        "License": "Apache License (== 2.0) | file LICENSE",
+        "URL": "https://krlmlr.github.io/utf8/, https://github.com/krlmlr/utf8",
+        "BugReports": "https://github.com/krlmlr/utf8/issues",
+        "Depends": "R (>= 2.10)",
+        "Suggests": "cli, covr, knitr, rlang, rmarkdown, testthat (>= 3.0.0),\nwithr",
+        "VignetteBuilder": "knitr, rmarkdown",
+        "Config/testthat/edition": "3",
+        "Encoding": "UTF-8",
+        "RoxygenNote": "7.3.2.9000",
+        "NeedsCompilation": "yes",
+        "Packaged": "2025-06-08 18:28:11 UTC; kirill",
+        "Author": "Patrick O. Perry [aut, cph],\n  Kirill Müller [cre] (ORCID: <https://orcid.org/0000-0002-1416-3412>),\n  Unicode, Inc. [cph, dtc] (Unicode Character Database)",
+        "Maintainer": "Kirill Müller <kirill@cynkra.com>",
+        "Repository": "CRAN",
+        "Date/Publication": "2025-06-08 19:00:02 UTC",
+        "Built": "R 4.5.0; aarch64-apple-darwin20; 2025-06-08 20:24:56 UTC; unix",
+        "Archs": "utf8.so.dSYM"
       }
     },
     "vctrs": {
@@ -1653,10 +1863,10 @@
       "checksum": "c81b72fc4959600b888d070beee6e625"
     },
     "app.R": {
-      "checksum": "24811d72cd10d8bb4fc32518dba885d3"
+      "checksum": "d815a4183199492645085847006da8c9"
     },
     "app0.R": {
-      "checksum": "1d397b33e413fe87525d02c1bca585b6"
+      "checksum": "3a292221a1d03866e1119a7669cdafc0"
     },
     "crisriv.zip": {
       "checksum": "6e947ae0bb27da28e0a2ffff107d55f3"
@@ -1664,14 +1874,26 @@
     "icb_1side.zip": {
       "checksum": "2c668926b911c7a6c536dcf64aeae1ca"
     },
+    "ICB_actor_core.csv": {
+      "checksum": "0ce383ef053aa5f4729de670222ada3b"
+    },
     "ICB_Crisis_List_temp.csv": {
       "checksum": "ee89f5929f311caf04c46d777e064ebe"
     },
     "ICB_Crisis_List_temp.xlsx": {
       "checksum": "2449ff69e975547435d1fd0eadfb099e"
     },
+    "ICB_Crisis_List_with_Summaries_urls.csv": {
+      "checksum": "a613d054291e808047a3c3ad7cd42cc3"
+    },
+    "ICB_Crisis_List_with_Summaries_urls.xlsx": {
+      "checksum": "06c91a7402330d2f1fb6b3b7e9104dc5"
+    },
     "ICB_Crisis_List_with_Summaries.xlsx": {
       "checksum": "b5a80df0ca097e793a3e22a51ddcdcb3"
+    },
+    "ICB_system_core.csv": {
+      "checksum": "932da5c32aa1f95165edcdd57d38fa17"
     },
     "ICB_v11_Announcement.pdf": {
       "checksum": "9f1e16702f6f3713c9f835b15f0f790e"
